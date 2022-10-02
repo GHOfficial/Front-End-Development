@@ -46,6 +46,7 @@ nav {
     margin: 30px;
     background-color: #44A1B5;
     /* width: fit-content; */
+    flex-wrap: wrap;
 }
 
 .nav-img {
@@ -112,4 +113,6 @@ footer {
         width: 90px;
         height: 90px;
     }
+    .nav {
+        flex-wrap: wrap;
 }
