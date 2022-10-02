@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    /* background-color: rgb(238, 234, 242); */
+}
+
+header {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 5px;
+    background-color: #F9C22E;
+    height: 200px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(41, 48, 55);
+}
+
+h2 {
+    font-family: 'Source Code Pro';
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Source Code Pro', serif;
+    font-weight: 600;
+    color: rgb(6, 6, 6);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background-color: #44A1B5;
+    /* width: fit-content; */
+}
+
+.nav-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+
+}
+
+
+
+.img-css {
+    width: 150px;
+    height: 200px;
+}
+
+
+.img-html:hover,
+.img-css:hover,
+.img-js:hover, .img-rjs:hover,
+.img-ang:hover  {
+    cursor: pointer;
+    transform: translateX(0);
+    transform: sclae(1.2);
+    transition: all 1s ease-in-out;
+    opacity: 0.5;
+}
+
+.all-articles {
+    margin: 30px;
+    padding: 5px;
+    background-color: #55DDE0;
+}
+
+.all-articles > h1, .article {
+    margin: 10px;
+    padding: 5px;
+}
+
+.article {
+    background-color: rgb(224, 255, 255);
+}
+
+.atrticle >h2, p {
+    margin: 4px;
+    font-size: 95%;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 940px){
+    .nav-img {
+        width: 95px;
+    }
+    .img-css {
+        width: 90px;
+        height: 90px;
+    }
+}
